@@ -70,4 +70,4 @@ app.Run();
 
 #### Entendendo estas sutis mudanças você não terá problemas em estudar utilizando o ASP.NET 6 em seu projeto.
 
-#### Em caso de dúvidas baixe o nosso projeto em .NET 6 e compare com o seu código [Projetos para Donwload](https://desenvolvedor.io/curso/dominando-o-asp-net-mvc-core/links-materiais)
+#### Em caso de dúvidas baixe o nosso projeto em .NET 6 e compare com o seu código [Projetos para Donwload](https://desenvolvedor.io/curso/dominando-o-asp-net-mvc-core/links-materiais) 
