@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/5068797/158006937-05f1a481-746f-48e8-9fae-8d9394bc86e4.png)
 
-#### Procure por ASP.NET Core para facilitar a pesquisa do template correto, na sequencia **selecione a opção ASP.NET Core Web App**
+#### Procure por ASP.NET Core para facilitar a pesquisa do template correto, na sequencia **selecione a opção ASP.NET Core Web App (Model-View-Controller)**
 
 ![image](https://user-images.githubusercontent.com/5068797/158007370-5268b91c-07de-4727-a9bd-fdf9b684541e.png)
 
