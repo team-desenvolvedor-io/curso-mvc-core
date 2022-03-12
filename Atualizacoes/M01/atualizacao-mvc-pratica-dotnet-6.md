@@ -26,7 +26,7 @@ Escolha a versão do .NET, por razões de estudos sempre utilize a última vers�
 
 ### A única grande mudança é a saída da classe Startup.cs, toda sua responsabilidade foi levada para a classe Program.cs (que já existia desde sempre). Não é mais necessário ter uma classe startup, mas caso você queira manter a sua num projeto ASP.NET 6 ainda é possível, siga este tutorial [no Youtube](https://www.youtube.com/watch?v=VgjHQvprRy0)
 
-### Preste atenção aos comentários na classe Program.cs abaixo, é importante entender algumas responsabilidades:
+#### Preste atenção aos comentários na classe Program.cs abaixo, é importante entender algumas responsabilidades:
 
 ```csharp
 // O builder é responsável por fornecer os métodos de controle
@@ -68,6 +68,6 @@ app.MapControllerRoute(
 app.Run();
 ```
 
-### Entendendo estas sutis mudanças você não terá problemas em estudar utilizando o ASP.NET 6 em seu projeto.
+#### Entendendo estas sutis mudanças você não terá problemas em estudar utilizando o ASP.NET 6 em seu projeto.
 
-### Em caso de dúvidas baixe o nosso projeto em .NET 6 e compare com o seu código [Projetos para Donwload](https://desenvolvedor.io/curso/dominando-o-asp-net-mvc-core/links-materiais)
+#### Em caso de dúvidas baixe o nosso projeto em .NET 6 e compare com o seu código [Projetos para Donwload](https://desenvolvedor.io/curso/dominando-o-asp-net-mvc-core/links-materiais)
