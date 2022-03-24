@@ -1,4 +1,4 @@
-## Siga o roteiro abaixo para reproduzir no Visual Studio 2022 com ASP.NET 6 o mesmo procedimento realizado na aula "Criando um projeto MVC sem template"
+## Utilize o roteiro abaixo para reproduzir no Visual Studio 2022 com ASP.NET 6 caso esteja utilizando esta versão, isto lhe dará suporte para os processos executados nas próximas aulas deste módulo.
 
 ### Na janela inicial do Visual Studio 2022, crie um novo projeto
 
