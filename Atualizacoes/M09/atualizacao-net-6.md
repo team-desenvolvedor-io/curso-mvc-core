@@ -1,4 +1,4 @@
-## Devido as mudanças no ASP.NET 6 atente-se aos detalhes sobre as aulas a seguir caso esteja usando esta versão
+## Devido as mudanças no ASP.NET 6 atente-se aos detalhes as mudanças nas classes a seguir conforme implementações nas aulas anteriores.
 
 ### Classe Program.cs:
 
