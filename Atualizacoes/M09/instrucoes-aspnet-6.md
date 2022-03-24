@@ -1,5 +1,7 @@
 ## Devido as mudanças no ASP.NET 6 atente-se aos detalhes sobre as aulas a seguir caso esteja usando esta versão
 
+### PS - Consulte sempre esta aula de referência no caso de dúvidas além da aula final com o código completo.
+
 ### Aula - Trabalhando na classe Startup.cs
 
 #### Apesar da classe Startup.cs não existir mais, toda configuração deve ser feita da mesma maneira, porém agora na classe Program.cs (conforme visto nas atualizações das aulas anteriores)
@@ -51,6 +53,18 @@ if (builder.Environment.IsProduction())
 
 // *** Adicionar aqui os serviços no Container pipeline ***
 ```
+
+---
+
+### Aula - Realizando o Log de tudo!
+
+#### A implemementação do KissLog mudou um pouco devido a evolução do componente, baixe o projeto atualizado para conferir as mudanças:
+
+- Versão do pacote KissLog
+- Configuração do IKLogger
+- Registro do Middleware
+    
+Roteiro atualizado [Docs do KissLogger](https://kisslog.net/Docs/SDK.install-instructions.netcore-webApp.html)
 
 
 
