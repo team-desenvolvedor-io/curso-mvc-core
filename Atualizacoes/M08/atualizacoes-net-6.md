@@ -2,7 +2,7 @@
 
 ### No ASP.NET 6 a classe Startup.cs foi substituida pela Program.cs, a configuração para o Identity utilizando ASP.NET 6 não mudou em nada basicamente, é apenas uma questão de onde colocar as devidas configurações.
 
-### Considere a classe Program.cs abaixo como o resultado final das aulas deste módulo (atenção aos comentérios no código):
+### Considere a classe Program.cs abaixo como o resultado final das aulas deste módulo (atenção aos comentários no código):
 
 ```csharp
 
