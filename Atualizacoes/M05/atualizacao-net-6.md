@@ -1,6 +1,7 @@
 ## Atualização da configuração das rotas de áreas para ASP.NET 6
 
 ### Apesar de seguir a mesma estrutura considere as ligeiras mudanças a seguir para configuração das rotas no ASP.NET 6 (atenção aos comentários de código)
+### Esta configuração deve ser realizada na classe Program.cs que substituiu a classe Startup.cs
 
 ```csharp
 
