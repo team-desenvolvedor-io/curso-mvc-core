@@ -24,7 +24,7 @@ Escolha a versão do .NET, por razões de estudos sempre utilize a última vers�
 
 ## Mudanças no MVC no ASP.NET 6
 
-### Por uma questão de compatibilização com o padrão de código escrito em C# até o momento é recomendável desativar o suporte a validação de Nullable Types:
+### Por uma questão de compatibilização com o padrão de código escrito em C# até o momento é recomendável desativar o suporte a validação de Nullable Types do CSPROJ (clique 2x no projeto para abrir):
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
