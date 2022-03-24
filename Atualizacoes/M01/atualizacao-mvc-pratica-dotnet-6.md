@@ -24,6 +24,37 @@ Escolha a versão do .NET, por razões de estudos sempre utilize a última vers�
 
 ## Mudanças no MVC no ASP.NET 6
 
+### Por uma questão de compatibilização com o padrão de código escrito em C# até o momento é recomendável desativar o suporte a validação de Nullable Types:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-AppMvcBasica-E371D4CD-D91B-418D-B969-E35920E572C4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3" />
+  </ItemGroup>
+
+</Project>
+```
+
+#### É importante remover esta chave em todos os projetos que forem criados caso não queira tratar cada propriedade do seu código como Nullable
+
+```xml
+<Nullable>enable</Nullable>
+```
+
+---
+
 ### A única grande mudança é a saída da classe Startup.cs, toda sua responsabilidade foi levada para a classe Program.cs (que já existia desde sempre). Não é mais necessário ter uma classe startup, mas caso você queira manter a sua num projeto ASP.NET 6 ainda é possível, siga este tutorial [no Youtube](https://www.youtube.com/watch?v=VgjHQvprRy0)
 
 #### Preste atenção aos comentários na classe Program.cs abaixo, é importante entender algumas responsabilidades:
