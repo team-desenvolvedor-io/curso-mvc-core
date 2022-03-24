@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 // Builder principal é dele de onde tudo deriva
 var builder = WebApplication.CreateBuilder(args);
 
-#region " Configurando serviços no container "
+// *** Configurando serviços no container ***
 
 // Adicionando suporte a mudança de convenção da rota das areas.
 builder.Services.Configure<RazorViewEngineOptions>(options =>
@@ -43,9 +43,7 @@ builder.Services.AddScoped<MeuDbContext>();
 
 var app = builder.Build();
 
-#endregion
-
-# region " Configurando o resquest dos serviços no pipeline "
+// *** Configurando o resquest dos serviços no pipeline ***
 
 if (app.Environment.IsDevelopment())
 {
@@ -74,7 +72,5 @@ app.MapAreaControllerRoute("AreaProdutos", "Produtos", "Produtos/{controller=Cad
 app.MapAreaControllerRoute("AreaVendas", "Vendas", "Vendas/{controller=Pedidos}/{action=Index}/{id?}");
 
 app.Run();
-
-#endregion
 
 ```
