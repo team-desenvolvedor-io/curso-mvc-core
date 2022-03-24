@@ -21,6 +21,37 @@
 
 ![image](https://user-images.githubusercontent.com/5068797/159874480-e247c6ea-473a-478a-90d6-967d97ed07a5.png)
 
+### Por uma questão de compatibilização com o padrão de código escrito em C# até o momento é recomendável desativar o suporte a validação de Nullable Types do CSPROJ (clique 2x no projeto para abrir):
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-AppMvcBasica-E371D4CD-D91B-418D-B969-E35920E572C4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3" />
+  </ItemGroup>
+
+</Project>
+```
+
+#### É importante remover esta chave em todos os projetos que forem criados caso não queira tratar cada propriedade do seu código como Nullable
+
+```xml
+<Nullable>enable</Nullable>
+```
+
+---
+
 ### Analisando a classe Program.cs ela já vem preparada para todas as necessidades, daqui para frente basta adicionar / customizar conforme as novas implementações.
 
 ```csharp
