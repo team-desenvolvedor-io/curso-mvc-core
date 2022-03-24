@@ -1,4 +1,4 @@
-## Antes de começar o curso leia com atenção a estas instruções
+## Antes de começar o curso leia com atenção as instruções a seguir
 
 ### Versão do curso:
 
