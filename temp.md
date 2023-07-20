@@ -28,10 +28,11 @@ code .
 ```
 
 #### O VS Code abrirá da seguinte forma:
-![image](https://github.com/team-desenvolvedor-io/eduardo-pires/assets/5068797/1a71c1c7-b275-47f8-874b-5dccb8eec3f4)
+![image](https://github.com/team-desenvolvedor-io/curso-mvc-core/assets/5068797/978de9a0-a2db-4121-aa73-c8144289f730)
 
 #### Caso esteja usando o C# Dev Kit no VS Code poderá usar o Solution Explorer dessa forma:
-![image](https://github.com/team-desenvolvedor-io/eduardo-pires/assets/5068797/21421f1f-8723-4d87-98d8-252104b6328b)
+![image](https://github.com/team-desenvolvedor-io/curso-mvc-core/assets/5068797/f16a3a31-851e-4170-aa65-571112417dbc)
+
 
 
 
